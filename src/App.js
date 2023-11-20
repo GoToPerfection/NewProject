@@ -1,8 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './logo.svg'; // декларативный
+import './App.css'; // декларативный
 
 export const App = () => {
+	// императивный
 	return (
+		// декларативный от сюда
 		<div className="App">
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
@@ -20,5 +22,5 @@ export const App = () => {
 				<div>{new Date().getFullYear()}</div>
 			</header>
 		</div>
-	);
+	); // до сюда
 };
